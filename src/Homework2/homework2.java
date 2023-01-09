@@ -1,13 +1,10 @@
 package Homework2;
 
-import java.util.Scanner;
-
 public class homework2 {
 
     public static void main(String[] args) {
 
         // Перевести число 333 из шестнадцатиричной в десятичную
-
         int decimalNum1 = Integer.parseInt("333", 16);
 
         System.out.println("---------------------------------------");
