@@ -7,7 +7,6 @@ public class Shopping {
     Реализует логический метод canBuy,, возвращающий true ** Значение этой переменной должно быть true, если хотя бы
     один магазин открыт, иначе false. Отобразите строку «Я могу купить еду, это ……» и значение.
      */
-
     public static void main(String[] args) {
 
         boolean isEdekaOpen = true;
@@ -23,7 +22,6 @@ public class Shopping {
         }
 
     }
-
     private static boolean canBuy(boolean isEdekaOpen) {
 
         return isEdekaOpen;

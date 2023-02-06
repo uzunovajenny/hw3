@@ -17,7 +17,6 @@ public class Device {
         checkDevice(temperature1, temperature2);
 
     }
-
     public static void checkDevice(int temperature1, int temperature2) {
 
         System.out.println(temperature1 > 100 && temperature2 < 100);
